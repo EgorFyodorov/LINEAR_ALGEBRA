@@ -1,7 +1,8 @@
 # Linear_algebra
-Module realize main operations from algebra with matrices and vecors(further matrix = vector) and supports simple-fraction-class of variables, including for complex numbers;
-- Matrix, fraction and complex classes;
-- Multiplication and addition matrices and multiplication by a number;
-- Matrix resolution by Jordan-Gauss method;
-- Determinant computation;
-- Adjugate and iverible matrices;
+Линейная алгебра
+Модуль реализует основные операции из алгебры с матрицами и векторами (далее матрица = вектор) и поддерживает класс рациональных дробей, в том числе для комплексных чисел;
+- Классы: матрица, рациональная дробь, комплексное число (вместе с их взаимодействием);
+- Сложение и умножение матрииц и умножение матрицы на число;
+- Разрешение матрицы методом Жордана-Гаусса;
+- Вычисление определителя;
+- Сопряжённая и обратная матрицы;
