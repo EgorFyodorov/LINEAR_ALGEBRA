@@ -56,7 +56,7 @@ class complex(object): #взаимодействует либо с компле�
 		return complex(rational.correction(self.a), rational.correction(self.b))
 
 print('COMPLEX')
-print('Только с комплексными числами:')
+print('Only with complex numbers:')
 a = complex(1, 2)
 b = complex(1, 3)
 c = a + b
@@ -69,7 +69,7 @@ c = a / b
 print(a, '/', b, '=', c)
 
 #print()
-print('Взаимодействие с вещественными числами:')
+print('With integer numbers:')
 
 a = complex(1, 2)
 c = a + 2
@@ -90,8 +90,8 @@ c = a * 3
 print(a, '*', 3, '=', c)
 print()
 
-print('COMPLEX')
-print('Только с комплексными числами:')
+print('COMPLEX & FRACTION')
+print('Only with complex numbers:')
 a = complex(rational(1,2), rational(3,2))
 b = complex(rational(3,2), rational(4,2))
 c = complex.correction(a + b)
@@ -104,7 +104,7 @@ c = complex.correction(a / b)
 print(a, '/', b, '=', c)
 
 #print()
-print('Взаимодействие с вещественными числами:')
+print('With integer numbers:')
 
 c = complex.correction(a + 2)
 print(a, '+', 2, '=', c)

@@ -127,7 +127,7 @@ class rational(object):
 		return self
 
 print('RATIONAL')
-print('Только с дробями:')
+print('Only with fraction:')
 a = rational(1, 2)
 b = rational(1, 3)
 c = a + b
@@ -139,7 +139,7 @@ print(a, '*', b, '=', c)
 c = a / b
 print(a, '/', b, '=', c)
 
-print('Взаимодействие с целыми числами:')
+print('With integer numbers:')
 
 c = a + 2
 print(a, '+', 2, '=', c)
@@ -158,7 +158,7 @@ print(2, '*', a, '=', c)
 c = a * 3
 print(a, '*', 3, '=', c)
 
-print('Коррекция: ')
+print('Correction: ')
 print(rational(0, 1), '=',rational.correction(rational(0, 1)))
 print(rational(2, 1), '=',rational.correction(rational(2, 1)))
 print(rational(-2, 1), '=',rational.correction(rational(-2, 1)))
